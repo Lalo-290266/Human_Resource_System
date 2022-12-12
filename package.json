@@ -4,7 +4,12 @@
   "description": "Final Project using express.js",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lalo-290266/Human_Resource_System.git"
   },
   "keywords": [
     "api",
@@ -16,7 +21,15 @@
   ],
   "author": "Martinez Rodriguez Eduardo",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lalo-290266/Human_Resource_System/issues"
+  },
+  "homepage": "https://github.com/Lalo-290266/Human_Resource_System#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
   }
 }
