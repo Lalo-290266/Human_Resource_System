@@ -1,0 +1,22 @@
+{
+  "name": "human_resource_system",
+  "version": "1.0.0",
+  "description": "Final Project using express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "nodejs",
+    "mysql",
+    "jwt"
+  ],
+  "author": "Martinez Rodriguez Eduardo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
