@@ -1,0 +1,38 @@
+.padding{
+    padding-left: 9% !important;
+    padding-right: 9% !important;
+}
+
+.color{
+    background-color: #007bff;
+}
+
+.margin-top{
+    margin-top: 100px;
+}
+
+.space{
+    margin-bottom: 10px;
+}
+
+.width{
+    width: 600px;
+}
+
+.noPadding{
+    padding: 0 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.border{
+    border: solid;
+}
+
+.horizontal-space{
+    width: 15px;
+}

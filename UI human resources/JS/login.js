@@ -1,11 +1,12 @@
 window.onload = init;
 
 function init() {
-    if (!localStorage.getItem("token") != '') {
+    if (localStorage.getItem("token") == null) {
+        console.log("debug "+localStorage.getItem("token"));
         document.querySelector('.btn-primary').addEventListener('click', login);
     }
     else {
-        window.location.href = "employee.html";
+        window.location.href = "../pages/employees.html";
     }
 }
 
@@ -23,7 +24,7 @@ function login() {
     }).then(function (response) {
         if (response.data.code == 200) {
             localStorage.setItem("token", response.data.message);
-            window.location.href = "employee.html";
+            window.location.href = "../pages/employees.html";
             console.log(response);
         } else {
             console.log("Usuario y/o contraseña incorrectos")

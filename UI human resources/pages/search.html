@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Human Resources</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/actions.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../JS/search.js"></script>
+</head>
+
+<body>
+    <div class="padding color">
+        <nav class="navbar navbar-dark bg-primary justify-content-between">
+            <a class="navbar-brand" href="#">Human Resource System</a>
+
+            <form class="form-inline">
+                <button class="btn btn-outline-light my-2 my-sm-0 log-out">Log out</button>
+            </form>
+        </nav>
+    </div>
+
+    <div class="container width">
+        <div class="row">
+            <div class="card margin-top col align-self-center noPadding">
+                <h3 class="card-header">Search by name</h3>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="input-search-name">First name</label>
+                            <input type="text" class="form-control" id="input-search-name" placeholder="Employee name">
+                        </div>
+                        <a href="#" class="btn btn-dark btn-block search">Search</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
